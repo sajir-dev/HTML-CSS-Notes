@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 1.5em;
+    background-color: #F63232;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+header h1 {
+    display: inline-block;
+    border: 2px solid white;
+    padding: .2em .4em;
+    border-radius: 1em;
+}
+
+.banner img{
+    max-width:100%;
+}
+
+.banner h3 {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    left: 10%;
+    top: 40%;
+}
+
+.banner h3 span {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    z-index: 1;
+    top:100px;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+nav li :hover {
+    text-decoration: underline;
+}
+
+nav li a {
+    color: #4b4b4b;
+}
+
+nav li a.join {
+    color: #F63232;
+}
+
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+    box-sizing: border-box;
+}
+
+article h2{
+    color: #F63232;
+    font-size: 2em;
+}
+
+article p {
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+.images {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img {
+    max-width: 100%;
+}
+
+.joinform {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 3em 2em;
+}
+
+.joinform h2 {
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+
+form input {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 1em;
+    border: 4px solid white;
+}
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    color: white;
+    background-color: #F63232;
+    padding: .5em;
+}
+
+.images li:hover {
+    position: relative;
+    bottom: -2px;
+}
+
+form input:valid {
+    border-radius: 1.1em;
+    border: 4px solid lightgreen;
+}
+
+@media screen and (max-width:1400px) {
+    .banner h3 {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .images li {
+        width: 80%;
+        display: block;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav li {
+        display: block;
+    }
+}

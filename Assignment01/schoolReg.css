@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(205, 231, 231);
+    margin: 0;
+    padding: 3em;
+    border: 6px solid navy;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: .5em;
+    border: 2px solid #333333;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.menubar {
+    text-align: center;
+}
+a {
+    display: inline-block;
+    padding: 1em;
+    margin: .2em;
+    background-color: #cccccc;
+    border: 1px solid red;
+}
+
+h2{
+    text-align: center;
+    background-color: lightblue;
+    padding: .5em;
+    border: 1px solid #333333;
+}
+
+.footer {
+    margin-top: 2em;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #333333;
+}
+
+.footer a {
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+}
+

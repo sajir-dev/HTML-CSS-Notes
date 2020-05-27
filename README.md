@@ -109,5 +109,36 @@ Cascade- priority for last defined style.
 
 Not all properties are inheritted, to make them inherit add the property *inherit* with child <br>
 
-## 05-HTML5 Semantic Tags
+## 06-HTML5 Semantic Tags
+
+*main*- for the main content of the webpage <br>
+*section*- defines a certin section of a webpage<br>
+*article*- defines an article or blog <br>
+*aside*- aside content<br>
+*header* *footer* exactly as it is <br>
+<br>
+Learn more about semantics at: <br>
+https://www.w3schools.com/html/html5_semantic_elements.asp
+<br><br>
+ 
+ ## 08-CSS Layout and Positioning
+
+*static*
+*relative*
+*fixed*
+*absolute*
+*sticky*
+
+
+## 09-Pseudo classes
+
+*hover*
+*focus*
+*first-child*
+
+read more at https://www.youtube.com/redirect?v=FMu2cKWD90g&event=video_description&redir_token=17QSe-Awy2h6uAD9FRqRTU-1JLB8MTU5MDY3NTk1M0AxNTkwNTg5NTUz&q=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss_pseudo_elements.asp
+
+## 09-Responsive web and media queries
+Media qeuries: Tell the browser how to style an elment at a particular view port<br>
+Viewport meta tag: 
 
