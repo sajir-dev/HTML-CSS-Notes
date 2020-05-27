@@ -1,0 +1,22 @@
+.success {
+    background-color: tomato;
+}
+
+.error {
+    background-color: lightblue;
+}
+
+.feedback {
+    background-color: lightcoral;
+}
+
+p.error.feedback {
+    border: 10px solid green;
+}
+
+a[href="https://www.youtube.com/"] {
+    background-color: grey;
+    color: white;
+    text-transform:uppercase ;
+    font-weight: bold;
+}

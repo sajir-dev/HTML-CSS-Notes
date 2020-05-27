@@ -1,0 +1,45 @@
+h1 {
+    color : yellow;
+    background-color: slategrey;
+    font-size: 2-px;
+    text-decoration: underline;
+    font-family: Verdana;
+    text-align: center;
+}
+
+p {
+    color: slategrey;
+    text-align: right;
+    line-height: 15px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+ul {
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: steelblue; */
+
+    /* border: 3px solid crimson; */
+
+    border-bottom: 3px dotted crimson;
+    border-left: 5px dashed green;
+}
+
+li {
+    /* list-style-type: square; */
+    list-style-type: none;
+    text-shadow: 2px 2px lightgrey;
+}
+
+span {
+    /* display: block; */
+    display: inline-block;
+    border: 4px solid red;
+}
+
+
+
+
+
