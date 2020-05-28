@@ -142,3 +142,46 @@ read more at https://www.youtube.com/redirect?v=FMu2cKWD90g&event=video_descript
 Media qeuries: Tell the browser how to style an elment at a particular view port<br>
 Viewport meta tag: 
 
+## 10- Flexbox 
+
+Apply flex to parent childs automatically becomes child<br>
+
+*display:flex* <br>
+
+*flex-grow:{1-1000...}* <br>
+apply flex grow to child elements for different growth rate of children<br><br>
+
+
+*flex-shrink:{1-1000...}* <br>
+note: change  min-width value before apply this<br> 
+apply flex shrink to child elements for different shrink rate of children<br>
+rarely used property<br><br>
+
+*flex-wrap:{wrap/no-wrap/wrap-reverse}* <br>
+keeps min-width value<br> 
+<br>
+commonly used property<br><br>
+
+*flex-basis:value* <br>
+same as min-width value<br> 
+<br>
+
+*flex: flex-grow flex-shrink flex-basis* <br>
+shortform of all three flex properties. ie; flex: 1 0 200px<br>
+*flex: 1* will make flex-grow to 1 flex-shrink to 1 and flex-basis to 0 <br> 
+<br><br>
+*text-indent* is used to hide text. for eg: social media icons<br><br>
+
+*text-indent* is used to hide text. for eg: social media icons<br><br>
+
+*flex-flow:row* is used to align flex in a row. ie; main-axis. *flex-basis* property will be width in this case<br><br>
+
+*flex-flow:colomn* is used to align flex in a colomn. ie; cross-axis. *flex-basis* property will be height in this case<br><br>
+
+*flex-flow:row-reverse* is used to align flex in a row-end. ie; main-axis.<br><br>
+
+*flex-flow:colomn-reverse* is used to align flex in a colomn-end. ie; main-axis.<br><br>
+
+*align-items:center* vertical center. ie; cross-axis.<br>
+*justify-content:center* horizontal center. ie; main-axis.<br><br>
+
