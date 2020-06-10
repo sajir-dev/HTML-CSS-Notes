@@ -12,7 +12,7 @@
             <ul class="left-nav">
                 <li><img src="img/microsoft-logo-light.c77142eb.png"></li>
                 <li><span><a>Docs</a></span></li>
-                <li><a>Documentation</a></li>
+                <li><a class="underline">Documentation</a></li>
                 <li><a>Learn</a></li>
                 <li><a>Q&A</a></li>
                 <li><a>Code Samples</a></li>
@@ -25,11 +25,79 @@
         <nav class="secondnav">
             <ul class="left-nav">
                 <li><span>Azure</span></li>
-                <li><a>Product documentation</a></li>
-                <li><a>Architecture</a></li>
-                <li><a>Learn Azure</a></li>
-                <li><a>Develop</a></li>
-                <li><a>Resources</a></li>
+                <li class="dropdown">
+                    <!-- <button onclick="myFunction" class="dropbtn">Product documentation</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a>Compute</a>
+                        <a>Networking</a>
+                        <a>Storage</a>
+                        <a>Web</a>
+                        <a>Mobile</a>
+                        <a>Containers</a>
+                        <a>Database</a>
+                        <a>All products</a>
+                    </div> -->
+                    <!-- <button onclick="myFunction()" class="dropbtn">Product Documentation <span>∨</span></button>
+                    <div id="myDropdown" class=" dropdown-content">
+                        <a>Compute</a>
+                        <a>Networking</a>
+                        <a>Storage</a>
+                        <a>Web</a>
+                        <a>Mobile</a>
+                        <a>Containers</a>
+                        <a>Database</a>
+                        <a>All products</a>
+                    </div> -->
+                    <select id="prod">
+                        <option>Product Documentation</option>
+                        <option>Compute</option>
+                        <option>Networking</option>
+                        <option>Storage</option>
+                        <option>Web</option>
+                        <option>Mobile</option>
+                        <option>Containers</option>
+                        <option>Database</option>
+                        <option>All products</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="archi">
+                        <option>Architecture</option>
+                        <option>Get started</option>
+                        <option>Architecture Framework</option>
+                        <option>Design Patterns</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="learn">
+                        <option>Learn Azure</option>
+                        <option>Self-paced learning paths</option>
+                        <option>Hands-on labs</option>
+                        <option>Instructor-led courses</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="dev">
+                        <option>Develop</option>
+                        <option>Python</option>
+                        <option>JavaScript</option>
+                        <option>Java</option>
+                        <option>.NET</option>
+                        <option>Go</option>                        
+                    </select>
+                </li>
+                <li>
+                    <select id="resource">
+                        <option>Resources</option>
+                        <option>Pricing</option>
+                        <options>Videos</options>
+                        <options>Webinars</options>
+                        <option>Updates</option>
+                        <option>Whitepapers</option>
+                        <option>Blogs</option>
+                        <option>Support</option>
+                    </select>
+                </li>
             </ul>
             <ul class="right-nav">
                 <li><button class="outline-btn">Portal</button></li>
@@ -158,8 +226,10 @@
             <li><img src="img/logo_REST.svg"><h4>REST API</h4></li>
             <li><img src="img/logo_powershell.svg"><h4>Azure PowerShell</h4></li>
             <li><img src="img/logo_CLIgeneric.svg"><h4>Azure CLI</h4></li>
-
-
+            <li><img src="img/resource-groups.svg"><h4>ARM Templates</h4></li>
+            <li><img src="img/logo_jenkins.svg"><h4>Jenkins</h4></li>
+            <li><img src="img/logo_terraform.svg"><h4>Terraform</h4></li>
+            <li><img src="img/ansible.svg"><h4>Ansible</h4></li>
         </ul>
     </section>
     <section class="distinguished-products">
@@ -195,5 +265,43 @@
             <li><a>© Microsoft 2020</a></li>
         </ul>
     </footer>
+    <!-- <script>
+        // /* when a user clicks the button, toggle between hiding and showing the component*/
+        // function myFunction() {
+        //     document.getElementById("myDropdown").classList.toggle("show");
+        // }
+
+        // /*close the drop down if a user clicks out of it*/
+        // window.onclick = function (event) {
+        //     if (!event.target.matches('dropbtn')){
+        //         var dropdowns = document.getElementsByClassName("dropdown-content");
+        //         for (let i = 0; i < dropdowns.length; i++){
+        //             var openDropdown = dropdown[i];
+        //             if (dropdown.classList.contains('show')){
+        //                 openDropdown.classList.remove('show');
+        //             }
+        //         }
+        //     }
+        // }
+
+                /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (let i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script> -->
 </body>
 </html>
