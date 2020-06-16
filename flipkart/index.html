@@ -12,8 +12,14 @@
             <nav class="topnav">
                 <ul>
                     <li class="logo">
-                        <img src="img/flipkart-plus_4ee2f9.png" alt="logo">
-                        <p>Explore <span> Plus</span> <img src="img/plus_b13a8b.png"></p>
+                        <!-- <img src="img/flipkart-plus_4ee2f9.png" alt="logo"> -->
+                        <div id="logo-img"><p></p></div>
+                        <div id="explore"><p>Explore <span> Plus</span> <img src="img/plus_b13a8b.png"></p></div>
+                    </li>
+
+                    <!-- Logo for the mobile view -->
+                    <li class="mobile-logo">
+                        <img src="img/logo_lite-cbb357.png" width="25%">
                     </li>
                     <li>
                         <div class="search">
@@ -23,14 +29,36 @@
                     </li>
                 </ul>
                 <ul>
+                    <!-- Search lens for mobile view -->
+                    <li class="mobile-search">
+                        <img src="img/pngfuel.com.png" width="20px">
+                    </li>
+
+                    <!-- Cart for Mobile view -->
+                    <li class="mobile-cart">
+                        <img src="img/iconmonstr-shopping-cart-3.svg">
+                    </li>
+
                     <li>
                         <button>Login</button>
                     </li>
-                    <li>
-                        <a href="#">More <span><img src="img/angle-arrow-down.png"></span></a>
+                    <li> 
+                        <div class="dropdown">
+                            <a href="#"><img src="img/angle-arrow-down.png"> More</a>
+                            <div class="dropdown-content">
+                                <a href="#">Notification preferences</a>
+                                <a href="#">Sell on Flipkart</a>
+                                <a href="#">24 X 7 Customer care</a>
+                                <a href="#">Advertise</a>
+                                <a href="#">Download App</a>
+                            </div>
+                        </div>
+                        <!-- <a href="#">More <span><img src="img/angle-arrow-down.png"></span></a> -->
                     </li>
                     <li>
-                        <a href="#"><img src="img/iconmonstr-shopping-cart-3.svg">Cart</a>
+                        <div class="cart">
+                            <a href="#"><img src="img/iconmonstr-shopping-cart-3.svg">Cart</a>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -40,8 +68,102 @@
         <header>
             <nav class="category-nav">
                 <ul>
-                    <li>
+                    <li class="dropdown-nav">
                         Electronics <span><img src="img/angle-arrow-down.png"></span>
+                        <div class="dropdown-content">
+                            <div class="dropdown-menus">
+                                <ul class="drop-ul">
+                                    <li class="cat-header">Mobiles ></li>
+                                    <li>Mi</li>
+                                    <li>Realme</li>
+                                    <li>Samsung</li>
+                                    <li>Infinix</li>
+                                    <li>Oppo</li>
+                                    <li>Vivo</li>
+                                    <li>Poco X2</li>
+                                    <li>Realme Narzo C2</li>
+                                    <li>Apple</li>
+                                    <li>Asus</li>
+                                    <li>iPhone SE</li>
+                                    <li>iQOO 3</li>
+                                    <li>Motorola razr</li>
+                                    <li>Motorola G8 powerlite</li>
+                                </ul>
+                                <ul class="drop-ul">
+                                    <li class="cat-header">Mobile Accessories</li>
+                                    <li>Mobile Cases</li>
+                                    <li>Headphones & Headsets</li>
+                                    <li>Power Banks</li>
+                                    <li>Screen Guards</li>
+                                    <li>Memory cards</li>
+                                    <li>Smart Phones</li>
+                                    <li>Mobile chargers</li>
+                                    <li>Mobile holders</li>
+                                    <li class="cat-header">Smart Wearable Tech</li>
+                                    <li>Smart watches</li>
+                                    <li>Smart Bands</li>
+                                    <li>Smart Glasses</li>
+                                    <li class="cat-header">Healthcare Appliances</li>
+                                    <li>BP monitor</li>
+                                    <li>Weighing scale</li>
+                                </ul>
+                                <ul class="drop-ul">
+                                    <li class="cat-header">Laptop</li>
+                                    <li>Gaming Laptops</li>
+                                    <li class="cat-header">Gaming Laptops</li>
+                                    <li class="cat-header">Gaming Accessories</li>
+                                    <li class="cat-header">Computer Accessories</li>
+                                    <li>External Hard-discs</li>
+                                    <li>Pendrives</li>
+                                    <li>Laptop Skins & Decals</li>
+                                    <li>Laptop Bags</li>
+                                    <li>Mouse</li>
+                                    <li class="cat-header">Computer Peripherals</li>
+                                    <li>Printers and Ink catridges</li>
+                                    <li>Monitors</li>
+                                    <li class="cat-header">Tablets</li>
+                                    <li>iPad</li>
+                                </ul>
+                                <ul class="drop-ul">
+                                    <li>Televisions</li>
+                                    <li class="cat-header">Speakers</li>
+                                    <li>Home Audio Speakers</li>
+                                    <li>Home Theatres</li>
+                                    <li>Sound Bars</li>
+                                    <li>Bluetooth speakers</li>
+                                    <li>DTH set-top box</li>
+                                    <li class="cat-header">Smart Home Automation</li>
+                                    <li>Google Nest</li>
+                                    <li class="cat-header">Camers</li>
+                                    <li>DSLR & Mirrorless</li>
+                                    <li>Compact and Bridge Cameras</li>
+                                    <li>Sports and Action</li>
+                                    <li class="cat-header">Camera Accessories</li>
+                                    <li>Lens</li>
+                                    <li>Tripods</li>
+                                    <li class="cat-header">Network Components</li>
+                                    <li>Routers</li>
+                                </ul>
+                                <ul class="drop-ul">
+                                    <li class="cat-header">featured</li>
+                                    <li>Google Assistance Store</li>
+                                    <li>Laptops on buyback guarantee</li>
+                                    <li>Flipkart SmartBuy</li>
+                                    <li>Li-Polymer Power Banks</li>
+                                    <li>Sony PS4 Pro&Slim</li>
+                                    <li>Apple Products</li>
+                                    <li>Microsoft Store</li>
+                                    <li>Lenovo Phab Series</li>
+                                    <li>JBL Speakers</li>
+                                    <li>Smart Phone on Buy back guarantee</li>
+                                    <li>Philips</li>
+                                    <li>Dr.Moripen</li>
+                                    <li>Complete Mobile Protection</li>
+                                    <li>Mobiles no-cost EMI</li>
+                                    <li>Huawei Watch Gt 2e Smart Watch</li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         TV&Appliances <span><img src="img/angle-arrow-down.png"></span>
@@ -85,7 +207,7 @@
                 <h5>PRICE</h5>
                 <div class="slider-container">
                     <input type="range" min="1" max="100" value="85" id="myRange">
-                    <select class="dropdown">
+                    <select>
                         <option value="0">Max</option>
                         <option value="1">₹1000</option>
                         <option value="2">₹2000</option>
@@ -93,7 +215,7 @@
                         <option value="4">₹4000</option>
                     </select>
                     to
-                    <select class="dropdown">
+                    <select>
                         <option value="0">₹50000</option>
                         <option value="1">₹1000</option>
                         <option value="2">₹2000</option>
@@ -194,7 +316,7 @@
                             <input type="checkbox" name="compare" id="compare"><label for="compare">Add to compare</label>
                         </li>
                     </ul>
-                    <ul>
+                    <ul class="desktop-wishlist">
                         <li><img src="img/Maki2-heart-24.svg.png" alt="wishlist"></li>
                     </ul>
                     <ul class="item-description">
@@ -223,6 +345,52 @@
                             Battery warranty of 1 year available for Mobile and 6 months for Accessories
                         </li>
                     </ul>
+                    <!-- Start: Item description for mobile view -->
+                    <ul class="mobile-item-description">
+                        <li>
+                            <h3> Redmi Note 8 (Onyx Black, 64GB)</h3>
+                        </li>
+                        <li class="rating">
+                            <span class="star">4.4 *</span><span>(42078)</span>
+                            <span><img src="img/fa_8b4b59.png" width="20%"></span>
+                        </li>
+                        <li>
+                            <p class="price-text">₹14,999</p>
+                        </li>
+                        <li>
+                            <p><span  class="strike">₹17,999</span> <span class="percentage">11% off</span></p>
+                        </li>
+                        <li>
+                            No cost EMI
+                        </li>
+                        <li>
+                            Upto ₹13950 Off on Exchange
+                        </li>
+                    </ul>
+
+                    <!--Item Specification Mobile view start -->
+                    <ul>
+                        <div class="mobile-specification">
+                            <span>
+                                6 GB RAM | 128 GB ROM
+                            </span>
+                            <span>
+                                15.44cm (6.08 inch) HD+ Display
+                            </span>
+                            <span>
+                                48MP + 8MP + 2MP
+                            </span>
+                            <span>
+                                32 MP Front Camera
+                            </span>
+                            <span>
+                                4030 mAh
+                            </span>
+                        </div>
+                    </ul>
+                    <!-- Item specification mobile view end -->
+
+                    <!-- End: Item mobile description end -->
                     <ul class="price">
                         <li>
                             <p class="price-text">₹14,999<span><img src="img/fa_8b4b59.png"></span></p>
